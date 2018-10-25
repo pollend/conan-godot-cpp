@@ -34,7 +34,7 @@ if __name__ == "__main__":
         remotes=upload_remote)
 
     builder.add_common_builds()
-    
+
     if header_only:
         filtered_builds = []
         for settings, options, env_vars, build_requires, reference in builder.items:

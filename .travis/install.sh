@@ -21,6 +21,6 @@ fi
 
 pip install conan --upgrade
 pip install conan_package_tools
-pip install scons
+pip install SCons
 
 conan user
